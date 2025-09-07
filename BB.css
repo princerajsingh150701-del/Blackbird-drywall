@@ -2,12 +2,12 @@ body{
     margin: 0;
     padding: 0;
     background-color:black;
-    color:rgb(28,161,82);
+    
 }
 
 
 #second-container h3{
-    
+    color:rgb(28,161,82);
     padding-top: 90px;
     text-align: center;
     text-shadow: 2px 0px 8px #ddc9c9;

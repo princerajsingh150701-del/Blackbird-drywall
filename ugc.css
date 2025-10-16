@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Marcellus", serif;
+   
+}
+.page1{
+    height: 110vh;
+    width: 100%;
+    background-color: #DCDCDC;
+}
+.page1 .navbar{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2vh;
+    flex-wrap: wrap;
+    border-bottom: 7px soid rgb(104, 47, 47);
+}
+.navleft{
+    
+    height: 100%;
+    width: 16%;
+}
+.navbar .navleft div{
+    height: 100%;
+    width: 100%;
+}
+.navright{
+    height: 100%;
+    width: 40%;
+    
+    
+}
+.navbar .navleft img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.navbar .navright{
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+}
+.navbar .navright a{
+    color: black;
+    text-decoration: none;
+}
+
+.page1box{
+    height: 100vh;
+    width: 100%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page1left{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.page1left h1{
+    padding: 9vw 4vw;
+    font-size: 4vh;
+    font-weight: 200;
+}
+.page1left p{
+    padding: 1vw 4vw;
+}
+.page1left button{
+    padding: 1vw 4vw;
+    margin-left: 4vw;
+    margin-top: 2vh;
+}
+.page1right{
+    height: 100%;
+    width: 50%;
+   
+}
+
+.page1right img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.page2{
+    height: 110vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 23vh;
+    
+}
+.page2left{
+    height: 100%;
+    width: 45%;
+
+}
+.page2left h1{
+    padding: 9vw 4vw;
+    font-size: 3em;
+    font-weight: 200;
+}
+.page2left p{
+    padding: 1vw 4vw;
+}
+
+.page2right{
+    height: 100%;
+    width: 50%;
+    display: flex;
+   
+   
+}
+.page2right div{
+    height: 100%;
+    width: 100%;
+    padding: 5vh 0;
+}
+.page2right div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.page2left p{
+    font-weight: 3vh;
+    padding: 1vh;
+}
+
+.page3{
+    height: 110vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   
+}
+.page3top{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.page3top .page3left{
+    height: 100%;
+    width: 50%;
+    
+
+}
+.page3top .page3center{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.page3top .page3center,.page3right{
+    height: 100%;
+    width: 25%;
+    
+}
+.page3bottom{
+    height: 70vh;
+    width: 100%;
+}
+.page3bottom img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.page4{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.page4left{
+width: 25%;
+height: 100%;
+gap: 1vh;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.page4center{
+height: 100%;
+width: 25%;
+
+display: flex;
+flex-direction: column;
+gap: 1vh;
+align-items: center;
+justify-content: center;
+}
+.page4right{
+height: 100%;
+width: 50%;
+background-color: palevioletred;
+}
+
+
+@media screen and (max-width: 800px) {
+    .navbar .navright{
+        display: none;
+    }
+   
+    .navbar .navleft{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+        margin: auto;
+    }
+
+    .page1box{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .page1left{
+        width: 100%;
+        height: 55%;
+    }
+    .page1right{
+        width: 100%;
+        height: 45%;
+    }
+    .page2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .page2left{
+        width: 100%;
+        height: 45%;
+    }
+    .page2right{
+        width: 100%;
+        height: 55%;
+    }
+    .page2left p{
+        font-size: 1.7vh;
+    }
+    .page4left, .page4center{
+        width: 50%;
+        height: 50%;
+    }
+    .page4right{
+        width: 100%;
+        height: 50%;
+    }
+}

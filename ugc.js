@@ -8,7 +8,7 @@ gsap.from(".page1", {
   });
 
   gsap.from(".page2 .page2left", {
-    x: 600,
+    x: 100,
       opacity:0,// Animation properties
     duration: 1,
     scrollTrigger: {
@@ -19,5 +19,6 @@ gsap.from(".page1", {
       // Optional: Display visual markers for start/end points
     }
   });
+
 
 

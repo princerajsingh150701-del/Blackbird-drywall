@@ -15,6 +15,7 @@ gsap.from(".page1", {
       start: "top 0%", // When the top of the trigger hits the center of the viewport
       end: "bottom 50%", // When the bottom of the trigger hits the top of the viewport
       scrub: true, // Link animation progress to scroll position
-      markers: true // Optional: Display visual markers for start/end points
+      // Optional: Display visual markers for start/end points
     }
   });
+

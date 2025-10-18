@@ -8,14 +8,16 @@ gsap.from(".page1", {
   });
 
   gsap.from(".page2 .page2left", {
-    x: 600, // Animation properties
-    duration: 5,
+    x: 600,
+      opacity:0,// Animation properties
+    duration: 1,
     scrollTrigger: {
       trigger: ".page2", // Element that triggers the animation
-      start: "top 0%", // When the top of the trigger hits the center of the viewport
+      start: "top 30%", // When the top of the trigger hits the center of the viewport
       end: "bottom 50%", // When the bottom of the trigger hits the top of the viewport
       scrub: true, // Link animation progress to scroll position
       // Optional: Display visual markers for start/end points
     }
   });
+
 

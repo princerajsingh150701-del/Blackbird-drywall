@@ -393,6 +393,9 @@ font-size: 0.6em;
     height: 60%;
     width: 100%;
     padding:0;
-    font-size:1.5vh;
+    
+}
+    .section5right h4{
+    font-size: 0.8em;
 }
 }

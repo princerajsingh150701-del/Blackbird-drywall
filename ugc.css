@@ -237,7 +237,7 @@
 .bottom img{
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 .bottom .bottomname{
     height: 100%;

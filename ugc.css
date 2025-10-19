@@ -1,263 +1,397 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: "Marcellus", serif;
-   
+    font-family: "Manrope", sans-serif;
 }
-.page1{
-    height: 110vh;
+
+
+
+.section1{
+    height: 100vh;
     width: 100%;
-    background-color: #DCDCDC;
-}
-.page1 .navbar{
-    height: 10vh;
-    width: 100%;
+   position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 2vh;
-    flex-wrap: wrap;
-    border-bottom: 7px soid rgb(104, 47, 47);
+    overflow: hidden;
 }
-.navleft{
-    
-    height: 100%;
-    width: 16%;
-}
-.navbar .navleft div{
-    height: 100%;
+.section1 .navbar{
+    position: absolute;
+    top: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
     width: 100%;
+    
 }
-.navright{
+.section1 .navbar .navleft{
     height: 100%;
-    width: 40%;
-    
-    
+    width: 25%;
 }
-.navbar .navleft img{
+.section1 .navbar .navleft img{
     height: 100%;
     width: 100%;
     object-fit: contain;
 }
 .navbar .navright{
     display: flex;
-   align-items: center;
-   justify-content: space-between;
-
-}
-.navbar .navright a{
-    color: black;
-    text-decoration: none;
-}
-
-.page1box{
-    height: 100vh;
-    width: 100%;
-    
-    display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    height: 100%;
+    width: 40%;
+}
+.navbar .navright h5{
+    color: white;
+    font-weight: 200;
+    cursor: pointer;
 }
 
-.page1left{
+.section1left{
     height: 100%;
     width: 45%;
-    display: flex;
-    flex-direction: row;
-    
-}
-.page1left h1{
-    padding: 9vw 4vw;
-    font-size: 4vh;
-    font-weight: 200;
-}
-.page1left p{
-    padding: 1vw 4vw;
-}
-.page1left button{
-    padding: 1vw 4vw;
-    margin-left: 4vw;
-    margin-top: 2vh;
-}
-.page1right{
-    height: 100%;
-    width: 50%;
-   
-}
-
-.page1right img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-
-.page2{
-    height: 110vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 23vh;
-    
-}
-.page2left{
-    height: 100%;
-    width: 45%;
-
-}
-.page2left h1{
-    padding: 9vw 4vw;
-    font-size: 3em;
-    font-weight: 200;
-}
-.page2left p{
-    padding: 1vw 4vw;
-}
-
-.page2right{
-    height: 100%;
-    width: 50%;
-    display: flex;
-   
-   
-}
-.page2right div{
-    height: 100%;
-    width: 100%;
-    padding: 5vh 0;
-}
-.page2right div img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-.page2left p{
-    font-weight: 3vh;
-    padding: 1vh;
-}
-
-.page3{
-    height: 110vh;
-    width: 100%;
     display: flex;
     flex-direction: column;
-   
+    padding: 5vw 4vw;
+
 }
-.page3top{
+.section1left h1{
+    padding:33vh 0 5vh 0;
+    font-weight: 300;
+    font-size: xxx-large;
+}
+.section1left p{
+    padding-bottom: 4vh;
+}
+.section1left button{
+    width: 30%;
+    padding: 1vh 2vh;
+}
+.section1right{
+    height: 100%;
+    width: 45%;
+
+}
+.section1right div{
+    height: 100%;
+    width: 100%;
+    border-radius: 25%;
+}
+.section1right div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 2%;
+}
+
+.section2container{
     height: 40vh;
     width: 100%;
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
     
 }
-.page3top .page3left{
+.section2left{
     height: 100%;
-    width: 50%;
+    width: 28%;
     
+    
+}
+.section2right{
+    height: 100%;
+    width: 58%;
+    
+   
+}
+.section2left h2{
+    font-size: 4vh;
+    font-weight: 600;
+    margin-top: 1vh;
+    padding-left: 2vw;
+}
+.section2left h1{
+    padding-left: 2vw;
+    padding-top: 4vh;
+    font-weight: 300;
 
 }
-.page3top .page3center{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+
+.section2right p{
+    padding: 2vw;
+    font-weight: 200;
+    font-size: 1.2rem;
 }
-.page3top .page3center,.page3right{
-    height: 100%;
-    width: 25%;
+
+
+.section3container{
+    height: 50vh;
+    width: 90%;
+   margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
     
 }
-.page3bottom{
-    height: 70vh;
-    width: 100%;
+.first .second .third .four{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid red;
+    
 }
-.page3bottom img{
+.section3container h1{
+    font-weight: 200;
+    font-size: xxx-large;
+}
+
+.section3container p{
+    font-weight: 100;
+    width: 90%;
+}
+
+.section4container{
+    height: 30vh;
+    width: 100%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.section4container p{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 2vw 9vh;
+}
+
+.section4container h5{
+    text-align: center;
+    font-weight: 300;
+    margin-top: 2vh;
+}
+.section4container h1{
+    font-weight: 300;
+    margin-top: 2vh;
+}
+
+.section5container{
+    height: 60vh;
+    width: 90%;
+    margin: 5vh auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #E9ECF2;
+}
+.section5container .section5left{
+    height: 100%;
+    width: 30%;
+    background-color: gray;
+}
+.section5left img{
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
-.page4{
-    height: 50vh;
-    width: 100%;
+.section5container .section5right{
+    height: 100%;
+    width: 60%;
+   
+    display: flex;
+    flex-direction: column;
+    padding: 0vh 3vw;
+    position: relative;
+}
+.section5right h1{
+    font-weight: 100;
+    font-size: 3.3vw;
+    margin-top: 5vh;
+}
+.section5right h4{
+    font-weight: 300;
+    font-size: 2.5vh;
+    margin-top: 2vh;
+}
+
+.section5container .section5right .bottom{
+    position: absolute;
+    bottom: 5%;
+    height: 10%;
+    width: 80%;
+    
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    justify-content: start;
 }
-.page4left{
-width: 25%;
-height: 100%;
-gap: 1vh;
-display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: column;
+.bottom .bottomimg{
+    height: 100%;
+    width: 10%;
 }
-.page4center{
-height: 100%;
-width: 25%;
-
-display: flex;
-flex-direction: column;
-gap: 1vh;
-align-items: center;
-justify-content: center;
+.bottom img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
 }
-.page4right{
-height: 100%;
-width: 50%;
-padding: 2vh 3vw;
+.bottom .bottomname{
+    height: 100%;
+    width: 50%;
+    
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
 }
 
-
-@media screen and (max-width: 800px) {
-    .navbar .navright{
-        display: none;
-    }
+.carousel{
+    margin: 100px auto;
+    width: 90%;
    
-    .navbar .navleft{
-       display: flex;
-       align-items: center;
-       justify-content: center;
-        margin: auto;
-    }
+    display: flex;
+    overflow-x: auto;
+    gap: 1em;
+}
+.carousel::-webkit-scrollbar{
+    display: none;
+}
 
-    .page1box{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    .page1left{
-        width: 100%;
-        height: 55%;
-    }
-    .page1right{
-        width: 100%;
-        height: 45%;
-    }
-    .page2{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    .page2left{
-        width: 100%;
-        height: 45%;
-    }
-    .page2right{
-        width: 100%;
-        height: 55%;
-    }
-    .page2left p{
-        font-size: 1.7vh;
-    }
-    .page4left, .page4center{
-        width: 50%;
-        height: 50%;
-    }
-    .page4right{
-        width: 100%;
-        height: 50%;
-    }
+.card{
+    flex: 0 0 5em;
+    height: 7em;
+    padding: 1em;
+    
+    font-size: 3rem;
+   height: 100%;
+   width: 100%;
+    text-align: center;
+    align-content: center;
+}
+.card img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    animation: spin 25s infinite linear;
+    padding-right: 1em;
+}
+
+@keyframes spin{
+    from {translate:0;}
+    to{ translate: -100%;}
+}
+
+.section6container{
+    height: 70vh;
+    width: 100%;
+    background-color: #101015;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+.section6container h1{
+    font-size: xxx-large;
+    font-weight: 200;
+}
+
+.section6container h4{
+    text-align: center;
+    font-weight: 100;
+}
+.section6container p{
+    font-weight: 100;
+}
+
+@media (max-width: 800px) {
+   .section1{
+    flex-direction: column;
+    padding: 0 0 5vw 0;
+   }
+   .section1left{
+    height: 50%;
+    width: 100%;
+    margin-left: 4vw;
+   }
+   .section1left h1{
+    font-size: x-large;
+    padding: 8vh 0 3vh 0;
+   }
+   .section1left p{
+    font-weight: 100;
+   }
+   .section1right{
+    height: 50%;
+    width: 100%;
+   }
+   .section1right img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+   }
+   .navbar{
+    justify-content: center;
+    align-items: center;
+   }
+   .navbar .navleft{
+    margin: auto;
+   }
+   .navbar .navright{
+    display: none;
+   }
+   .section2container{
+    flex-direction: column;
+    height: 80vh;
+   }
+   .section2container .section2left{
+    height: 30%;
+    width: 100%;
+   }
+   .section2container .section2right{
+    height: 70%;
+    width: 100%;
+   }
+   .section2container .section2left {
+font-size: 0.6em;
+   }
+  .section2container .section2right{
+    margin-top: 3vh;
+  }
+
+  .section3container{
+    flex-direction: column;
+    height: 77vh;
+    align-items: flex-start;
+  }
+  .first .second .third .four{
+    height: 25%;
+    width: 100%;
+  }
+  
+.section5container{
+    flex-direction: column;
+    height: 110vh;
+}
+.section5container .section5left{
+    height: 40%;
+    width: 100%;
+}
+.section5container .section5right{
+    height: 60%;
+    width: 100%;
+    padding:0
+}
 }

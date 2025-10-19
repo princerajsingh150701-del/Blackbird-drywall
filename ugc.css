@@ -216,7 +216,7 @@
 }
 .section5right h4{
     font-weight: 300;
-    font-size: 2.5vh;
+    font-size: 1.5vh;
     margin-top: 2vh;
 }
 
@@ -237,7 +237,7 @@
 .bottom img{
     height: 100%;
     width: 100%;
-    object-fit: contain;
+    object-fit: cover;
 }
 .bottom .bottomname{
     height: 100%;
